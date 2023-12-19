@@ -1,1 +1,15 @@
-
+y = input("hi! i'm your personalized anime chatbot! do you wanna watch anime today? :")
+if y == "yes":
+    x = input("Enter the genre you would like to watch!thriller/horror/romance/slice of life/suspense:")
+    if x == "thriller":
+        print("Promised neverland, parasyte, Corpse party, mieruko - chan are my top recommendations!")
+    elif x == "horror":
+        print("Promised neverland, parasyte, Corpse party, mieruko - chan are my top recommendations!")
+    elif x == "romance":
+        print("tomochan is a boy, my little monster, romantic killer,my happy marraige")
+    elif x == "slice of life":
+        print("Buddy daddies, tomochan is a boy, my neighbour totoro, ponyo, /n my little monster, romantic killer,my happy marraige")
+    elif x == "suspense":
+        print("Monster,beasters, heavenly delusional, great pretender,tokyo revengers")
+else:
+    print("ah.. i see... i'mma still recommend so say yes!")
